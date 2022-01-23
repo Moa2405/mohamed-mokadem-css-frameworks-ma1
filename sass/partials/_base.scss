@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: getColors(background-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+
+  .footer__link {
+    color: getColors(secondary-text);
+    font-size: 12px;
+  }
+}

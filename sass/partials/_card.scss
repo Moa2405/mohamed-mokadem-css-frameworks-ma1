@@ -1,0 +1,17 @@
+.card {
+  height: 264px;
+  width: 263px !important;
+  border-radius: 15px;
+}
+
+.off-white {
+  background-color: getColors(off-withe);
+}
+
+.b-primary {
+  border: 3px solid $primary;
+}
+
+.b-secondary {
+  border: 3px solid getColors(off-withe);
+}

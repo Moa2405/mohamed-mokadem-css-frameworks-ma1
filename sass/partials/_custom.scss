@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Open+Sans&display=swap");
+
+$primary: #c32c72;
+
+$colors: (
+  off-withe: #f4f3ee,
+  background-color: #e5e5e5,
+  secondary-text: #8d8d8d,
+);
+
+@function getColors($color) {
+  @return map-get($colors, $color);
+}
